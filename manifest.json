@@ -1,0 +1,7 @@
+{
+  "name": "polymer-unity",
+  "short_name": "polymer-unity",
+  "description": "Unity WebGL on Polymer 3",
+  "start_url": "/",
+  "display": "standalone"
+}
