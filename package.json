@@ -2,6 +2,9 @@
   "name": "polymer-unity",
   "description": "Unity WebGL on Polymer 3",
   "dependencies": {
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-card": "^3.0.1",
+    "@polymer/paper-input": "^3.0.1",
     "@polymer/polymer": "^3.0.0"
   },
   "devDependencies": {
