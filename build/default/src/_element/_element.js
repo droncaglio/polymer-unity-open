@@ -1,9 +1,9 @@
-import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
-
+import { html, PolymerElement } from "../../node_modules/@polymer/polymer/polymer-element.js";
 /**
  * @customElement
  * @polymer
  */
+
 class PolymerUnityApp extends PolymerElement {
   static get template() {
     return html`
@@ -15,6 +15,7 @@ class PolymerUnityApp extends PolymerElement {
       <h2>Hello [[prop1]]!</h2>
     `;
   }
+
   static get properties() {
     return {
       prop1: {
@@ -23,6 +24,7 @@ class PolymerUnityApp extends PolymerElement {
       }
     };
   }
+
 }
 
 window.customElements.define('polymer-unity-app', PolymerUnityApp);
